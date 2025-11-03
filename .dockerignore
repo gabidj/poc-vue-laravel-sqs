@@ -1,0 +1,61 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+*.swn
+
+# Environment
+.env
+.env.backup
+.env.testing
+
+# Dependencies
+/vendor
+/node_modules
+
+# Build artifacts
+/public/hot
+/public/storage
+/public/build
+
+# Storage
+/storage/*.key
+/storage/app/*
+!/storage/app/.gitignore
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/testing/*
+!/storage/framework/testing/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
+
+# Testing
+/tests
+/phpunit.xml
+/.phpunit.result.cache
+
+# Documentation
+README.md
+CONTRIBUTING.md
+AWS_SETUP_GUIDE.md
+
+# Docker
+docker-compose.yml
+docker-compose.*.yml
+Dockerfile
+.dockerignore
+
+# Other
+.editorconfig
+.phpunit.result.cache
+.php-cs-fixer.cache
